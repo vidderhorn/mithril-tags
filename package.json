@@ -1,0 +1,17 @@
+{
+  "name": "mithril-tags",
+  "version": "1.0.0",
+  "main": "lib/mithril-tags.js",
+  "dependencies": {
+    "mithril": "*"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.2",
+    "coffeescript": "^2.5.0",
+    "livescript": "^1.6.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
