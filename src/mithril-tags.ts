@@ -26,8 +26,4 @@ export const m = new Proxy(mithril, {
 
 export default m;
 
-const blacklist = [
-  "render", "mount", "route", "request", "jsonp", "parseQueryString",
-  "buildQueryString", "buildPathName", "parsePathName", "trust", "fragment",
-  "redraw",
-];
+const blacklist = Object.keys(mithril);

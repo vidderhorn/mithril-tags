@@ -8,10 +8,13 @@
   "devDependencies": {
     "@types/mithril": "^2.0.2",
     "coffeescript": "^2.5.0",
+    "jsdom": "^16.5.3",
     "livescript": "^1.6.0",
+    "ts-node": "^9.1.1",
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test-ls": "lsc -r ts-node/register tests/mithril-tags.test.ls"
   }
 }
