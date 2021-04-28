@@ -24,7 +24,7 @@ m.div.container.anotherClass("hello!");
 In TypeScript element names will be type-checked and will appear in IDE code completion. However, LiveScript will look more beautiful.
 
 ```ls
-m.form."w-400" do
+m.form do
   m.div.form-group do
     m.label {for:\id} \ID
     m.input.form-control."w-50" {type:\text, id:\id}

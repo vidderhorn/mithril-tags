@@ -2,6 +2,12 @@
   "name": "mithril-tags",
   "version": "1.0.0",
   "main": "lib/mithril-tags.js",
+  "license": "Apache-2.0",
+  "description": "Enhanced hyperscript for Mithril",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vidderhorn/mithril-tags.git"
+  },
   "dependencies": {
     "mithril": "*"
   },
